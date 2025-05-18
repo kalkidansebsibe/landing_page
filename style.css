@@ -8,7 +8,7 @@
 body{
     background-color: #ffffff;
     font-size: 16px;
-    color: #ffffff;
+    color: black;
 }
 header{
     background-color: #1f2937;
@@ -17,8 +17,9 @@ header{
 }
 header nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    margin:60px;
 }
 header nav h2{
     color:#ffffff;
@@ -47,12 +48,12 @@ header nav ul li a:hover{
  
 .hero{
     margin: 50px;
-    padding: 20px;
     display: flex;
     justify-content: space-around;
     
 }
 .hero img{
+    margin-right: 50px;
     width: 40%;
     height: auto;
     border-radius: 10px;
@@ -65,7 +66,7 @@ header nav ul li a:hover{
     font-weight: 900;
 }
 .hero p{
-    padding: 20px;
+    margin: 10px 50px;
     font-size: 20px;
 }
 .hero button{
@@ -82,4 +83,31 @@ header nav ul li a:hover{
 .hero button a{
     text-decoration: none;
     color: #ffffff;
+}
+main{
+    margin: 20px;
+    padding: 20px;
+}
+main h2{
+    font-size: 36px;
+    color: #1f2937;
+    margin-bottom: 20px;
+    text-align: center;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 50px;
+    gap: 20px;
+
+}
+.card{
+    width: 400px;
+    padding: 20px;
+    border: #2563eb 1px solid;
+    border-radius: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 300px;
+  
 }
